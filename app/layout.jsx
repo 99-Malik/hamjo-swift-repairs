@@ -1,17 +1,15 @@
-import { Poppins, Roboto } from "next/font/google";
+import { Outfit, Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 
-const poppins = Poppins({ 
+const outfit = Outfit({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  variable: "--font-poppins"
+  variable: "--font-outfit"
 });
 
-const roboto = Roboto({ 
+const inter = Inter({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-  variable: "--font-roboto"
+  variable: "--font-inter"
 });
 
 export const metadata = {
@@ -23,26 +21,27 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${poppins.variable} ${roboto.variable}`}>
-    <head>
+    <html lang="en" className={`${outfit.variable} ${inter.variable}`}>
+      <head>
         {/* Include gtag.js script */}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-17646396822" />
 
         {/* Include gtag.js initialization script */}
-        <Script dangerouslySetInnerHTML={{ __html: `
+        <Script dangerouslySetInnerHTML={{
+          __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'AW-17646396822');
         ` }} />
-        
 
-</head>
-      <body className={`${poppins.className} antialiased`}>
 
-      {children}
+      </head>
+      <body className={`${inter.className} antialiased`}>
+
+        {children}
       </body>
-      
+
     </html>
   );
 }
