@@ -27,7 +27,7 @@ const TestimonialsSection = () => {
     ];
 
     return (
-        <Section id="testimonials" className="bg-primary-950 py-24 relative overflow-hidden">
+        <Section id="testimonials" className="bg-primary-950 py-12 md:py-24 relative overflow-hidden">
             {/* BG Glow */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary-800/20 rounded-full blur-[100px] -z-0"></div>
 

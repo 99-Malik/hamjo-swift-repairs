@@ -13,7 +13,7 @@ const ProcessSection = () => {
     ];
 
     return (
-        <Section className="bg-primary-900 py-24 relative overflow-hidden">
+        <Section className="bg-primary-900 py-12 md:py-24 relative overflow-hidden">
             {/* Background Mesh */}
             <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
 
@@ -37,7 +37,7 @@ const ProcessSection = () => {
                             <p className="text-slate-400 text-sm font-light leading-relaxed">{step.desc}</p>
 
                             {/* Step Number */}
-                            <div className="absolute -top-6 -right-2 text-6xl font-display font-bold text-white/5 select-none -z-10">0{i + 1}</div>
+                            <div className="absolute -top-4 -right-2 text-4xl md:-top-6 md:text-6xl font-display font-bold text-white/5 select-none -z-10">0{i + 1}</div>
                         </div>
                     ))}
                 </div>

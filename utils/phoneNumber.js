@@ -1,2 +1,2 @@
-export const phoneNumber = "+971566212023";
-export const phoneNumberShort = "+971566212023";
+export const phoneNumber = "+971507191656";
+export const phoneNumberShort = "+971507191656";

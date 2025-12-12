@@ -6,7 +6,7 @@ import { Check, Shield, Clock, Award, Star } from 'lucide-react';
 
 const WhyUsSection = () => {
     return (
-        <Section className="py-24 relative">
+        <Section className="py-12 md:py-24 relative">
             <div className="absolute inset-0 bg-gradient-to-b from-primary-950 to-primary-900"></div>
 
             <Container className="relative z-10">

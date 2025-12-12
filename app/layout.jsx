@@ -18,6 +18,12 @@ export const metadata = {
     "Professional appliance repair services across UAE. Expert technicians for refrigerators, washing machines, dishwashers, ovens, and all home appliances. Same-day service available.",
 };
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 
 export default function RootLayout({ children }) {
   return (

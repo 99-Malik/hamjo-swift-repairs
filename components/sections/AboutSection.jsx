@@ -21,7 +21,7 @@ const AboutSection = () => {
     ];
 
     return (
-        <Section id="about" className="relative py-24 bg-primary-950">
+        <Section id="about" className="relative py-12 md:py-24 bg-primary-950">
 
             <Container>
                 <div className="grid lg:grid-cols-2 gap-16 items-center">

@@ -11,27 +11,6 @@
   body {
     font-family: var(--font-inter), system-ui, sans-serif;
     line-height: 1.6;
-    font-weight: 400;
-    color: #f1f5f9;
-    /* Slate 100 */
-    background: #0f172a;
-    /* Fallback */
-    background: linear-gradient(135deg, #0f172a 0%, #020617 100%);
-    /* Deep Slate Gradient */
-    min-height: 100vh;
-  }
-}
-
-@layer components {
-
-  /* Typography */
-  .text-display {
-    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6;
-    font-family: var(--font-outfit);
-    line-height: 1.1;
-  }
-
-  .text-heading {
     @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-4;
     font-family: var(--font-outfit);
   }
@@ -43,28 +22,28 @@
 
   /* Buttons */
   .btn-primary {
-    @apply relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-bold text-white transition-all duration-300 bg-secondary-500 rounded-full hover:bg-secondary-600 hover:scale-105 shadow-glow;
+    @apply relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 overflow-hidden font-bold text-white transition-all duration-300 bg-secondary-500 rounded-full hover:bg-secondary-600 hover:scale-105 shadow-glow text-sm sm:text-base;
   }
 
   .btn-secondary {
-    @apply relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-bold text-slate-900 transition-all duration-300 bg-white rounded-full hover:bg-slate-100 hover:scale-105 shadow-lg;
+    @apply relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 overflow-hidden font-bold text-slate-900 transition-all duration-300 bg-white rounded-full hover:bg-slate-100 hover:scale-105 shadow-lg text-sm sm:text-base;
   }
 
   .btn-outline {
-    @apply relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-bold text-white transition-all duration-300 border-2 border-slate-600 rounded-full hover:border-white hover:bg-white/5;
+    @apply relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 overflow-hidden font-bold text-white transition-all duration-300 border-2 border-slate-600 rounded-full hover:border-white hover:bg-white/5 text-sm sm:text-base;
   }
 
   /* Cards */
   .card-modern {
-    @apply bg-primary-800/50 backdrop-blur-md border border-primary-700/50 p-8 rounded-2xl transition-all duration-300 hover:border-secondary-500/50 hover:shadow-soft-lg hover:-translate-y-1;
+    @apply bg-primary-800/50 backdrop-blur-md border border-primary-700/50 p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl transition-all duration-300 hover:border-secondary-500/50 hover:shadow-soft-lg hover:-translate-y-1;
   }
 
   .card-glass {
-    @apply bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl shadow-xl;
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl shadow-xl;
   }
 
   .card-gradient {
-    @apply bg-gradient-to-br from-primary-800 to-primary-900 border border-primary-700 p-8 rounded-2xl;
+    @apply bg-gradient-to-br from-primary-800 to-primary-900 border border-primary-700 p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl;
   }
 
   /* Navigation */
@@ -83,11 +62,11 @@
 
   /* Inputs */
   .input-modern {
-    @apply w-full px-5 py-4 bg-primary-900/50 border border-primary-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-secondary-500/50 focus:ring-1 focus:ring-secondary-500/50 transition-all;
+    @apply w-full px-4 sm:px-5 py-3 sm:py-4 bg-primary-900/50 border border-primary-700 rounded-lg sm:rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-secondary-500/50 focus:ring-1 focus:ring-secondary-500/50 transition-all text-sm sm:text-base;
   }
 
   .textarea-modern {
-    @apply w-full px-5 py-4 bg-primary-900/50 border border-primary-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-secondary-500/50 focus:ring-1 focus:ring-secondary-500/50 transition-all resize-none;
+    @apply w-full px-4 sm:px-5 py-3 sm:py-4 bg-primary-900/50 border border-primary-700 rounded-lg sm:rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-secondary-500/50 focus:ring-1 focus:ring-secondary-500/50 transition-all resize-none text-sm sm:text-base;
   }
 
   /* Utilities */
