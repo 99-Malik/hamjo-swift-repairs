@@ -42,7 +42,7 @@ const TechFixHeader = () => {
                 </svg>
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-xl sm:text-2xl font-bold gradient-text">Fast Repairs Pro</h1>
+                <h1 className="text-xl sm:text-2xl font-bold gradient-text">Swift Repairs UAE</h1>
                 <p className="text-xs sm:text-sm text-gray-600 -mt-1">Solutions</p>
               </div>
             </Link>

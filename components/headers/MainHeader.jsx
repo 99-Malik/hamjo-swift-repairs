@@ -39,8 +39,8 @@ const MainHeader = () => {
                                 <Wrench className="w-5 h-5 text-white" />
                             </div>
                             <div className="hidden sm:block">
-                                <h1 className="text-xl font-bold text-white tracking-tight font-display leading-none">Fast<span className="text-secondary-400">Repairs</span></h1>
-                                <span className="text-xs text-slate-400 font-light tracking-widest uppercase block">Pro Service UAE</span>
+                                <h1 className="text-xl font-bold text-white tracking-tight font-display leading-none">Swift<span className="text-secondary-400">Repairs</span></h1>
+                                <span className="text-xs text-slate-400 font-light tracking-widest uppercase block">UAE</span>
                             </div>
                         </Link>
                     </div>

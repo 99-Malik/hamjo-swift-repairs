@@ -94,7 +94,7 @@ const TechFixFooter = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-2xl font-bold">Fast Repairs Pro</h3>
+                <h3 className="text-2xl font-bold">Swift Repairs UAE</h3>
                 <p className="text-sm text-gray-400">Solutions</p>
               </div>
             </div>
@@ -222,7 +222,7 @@ const TechFixFooter = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © {currentYear} Fast Repairs Pro. All rights reserved.
+              © {currentYear} Swift Repairs UAE. All rights reserved.
             </div>
             <div className="flex flex-wrap justify-center md:justify-end space-x-6">
               {footerLinks.legal.map((link) => (

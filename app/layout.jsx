@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Fast Repairs Pro - Premium Appliance Repair Services",
+  title: "Swift Repairs UAE - Premium Appliance Repair Services",
   description:
     "Professional appliance repair services across UAE. Expert technicians for refrigerators, washing machines, dishwashers, ovens, and all home appliances. Same-day service available.",
 };

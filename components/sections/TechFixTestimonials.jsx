@@ -22,7 +22,7 @@ const TechFixTestimonials = () => {
       name: 'Mohammed Al-Rashid',
       location: 'Abu Dhabi',
       rating: 5,
-      text: 'Fast Repairs Pro saved my washing machine! Same-day service and excellent quality. The technician was knowledgeable and friendly. Will definitely use again.',
+      text: 'Swift Repairs UAE saved my washing machine! Same-day service and excellent quality. The technician was knowledgeable and friendly. Will definitely use again.',
       service: 'Washing Machine Repair',
       date: '1 week ago',
       avatar: '👨‍💻'
@@ -52,7 +52,7 @@ const TechFixTestimonials = () => {
       name: 'Layla Mansour',
       location: 'Ras Al Khaimah',
       rating: 5,
-      text: 'Amazing experience! The technician arrived on time and fixed my oven heating issue. Clean work and professional service. Thank you Fast Repairs Pro!',
+      text: 'Amazing experience! The technician arrived on time and fixed my oven heating issue. Clean work and professional service. Thank you Swift Repairs UAE!',
       service: 'Oven Repair',
       date: '1 week ago',
       avatar: '👩‍🍳'
@@ -212,7 +212,7 @@ const TechFixTestimonials = () => {
               Ready to Experience Our Service?
             </h3>
             <p className="text-gray-700 mb-6">
-              Join thousands of satisfied customers who trust Fast Repairs Pro for their appliance repair needs.
+              Join thousands of satisfied customers who trust Swift Repairs UAE for their appliance repair needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

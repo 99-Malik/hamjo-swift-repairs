@@ -14,7 +14,7 @@ const WhyUsSection = () => {
                     <div>
                         <span className="text-secondary-400 font-bold uppercase tracking-widest text-sm">The Premium Standard</span>
                         <h2 className="text-display leading-tight mt-2 mb-8">
-                            Why Choose <br /> Fast Repairs
+                            Why Choose <br /> Swift Repairs UAE
                         </h2>
 
                         <div className="space-y-6">

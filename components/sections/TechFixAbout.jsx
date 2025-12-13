@@ -54,7 +54,7 @@ const TechFixAbout = () => {
               <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
               </svg>
-              About Fast Repairs Pro
+              About Swift Repairs UAE
             </div>
 
             {/* Main Heading */}
@@ -64,7 +64,7 @@ const TechFixAbout = () => {
                 <span className="block gradient-text">Repair Partner</span>
               </h2>
               <p className="text-body text-gray-600">
-                With over 15 years of experience in the UAE, Fast Repairs Pro has become the leading 
+                With over 15 years of experience in the UAE, Swift Repairs UAE has become the leading 
                 appliance repair service provider. We combine technical expertise with exceptional 
                 customer service to deliver reliable solutions for all your appliance needs.
               </p>
@@ -74,7 +74,7 @@ const TechFixAbout = () => {
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-gray-900">Our Story</h3>
               <p className="text-gray-600">
-                Founded in 2008, Fast Repairs Pro started as a small family business with a simple mission: 
+                Founded in 2008, Swift Repairs UAE started as a small family business with a simple mission: 
                 to provide honest, reliable, and affordable appliance repair services. Today, we've grown 
                 to serve thousands of customers across the UAE, maintaining our commitment to quality and 
                 customer satisfaction.
